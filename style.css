@@ -1,0 +1,81 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .calculator {
+            width: 350px;
+            background: #000000;
+            border-radius: 20px;
+            padding: 20px;
+            padding-top: 120px;
+            padding-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: right;
+            
+        }
+
+        #result {
+            width: 90%;
+            font-size: 30px;
+            padding: 10px;
+            margin-bottom: 10px;
+            color: white;
+            background: transparent;
+            border: none;
+            text-align: right;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            
+        }
+
+        button {
+            padding: 20px;
+            font-family: helvetica;
+            font-size: 30px;
+            cursor: pointer;
+            border: none;
+            border-radius: 100%;
+        }
+        h6{
+            border-bottom: 5px solid white;
+            border-radius: 4px;
+            width: 50%;
+            margin-left: 90px;
+            margin-bottom: -14px;
+        }
+
+        .number, .operator, .calculate {
+            background: #2e2e2e;
+            color: #fff;
+        }
+        .number0{
+            grid-column:span 2;
+            background: #2e2e2e;
+            color: #fff;
+            border-radius:50px;
+        }
+
+        .clear {
+            background-color: grey;
+            color: #000000;
+        }
+
+        .decimal {
+            background: #2e2e2e;
+            color:white;
+        }
+        #operator{
+            background: grey;
+            color: #000000;
+        }
+        #operator1{
+            background-color: #FF9500;
+        }
